@@ -6,7 +6,7 @@
 /.project
 /.settings/
 /.vscode/
-.env
+src/main/java/az/edu/turing/hotelmanagementsystemapp/envPack/.envLocal
 *.env
 application.properties
 application.yml

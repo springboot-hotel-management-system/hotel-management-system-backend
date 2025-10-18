@@ -108,4 +108,14 @@
         </plugins>
     </build>
 
+    <profiles>
+        <profile>
+            <id>production</id>
+            <properties>
+                <spring.profiles.active>railway</spring.profiles.active>
+            </properties>
+        </profile>
+    </profiles>
+
+
 </project>

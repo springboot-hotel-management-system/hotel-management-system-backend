@@ -1,13 +1,12 @@
----
 spring:
   config:
     activate:
       on-profile: railway
   datasource:
-    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
-    username: ${PGUSER}
-    password: ${PGPASSWORD}
+    url: jdbc:postgresql://postgres.railway.internal:5432/railway
+    username: postgres
+    password: eTmAcHFXMslfAjTOAenVLxIHFrYBPqug
     driver-class-name: org.postgresql.Driver
 
 server:
-  port: ${PORT:8080}
+  port: 8080

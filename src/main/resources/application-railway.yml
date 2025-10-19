@@ -1,10 +1,11 @@
-# application.railway.yml
 spring:
   config:
     activate:
       on-profile: railway
   datasource:
-    url: jdbc:${DATABASE_URL}
+    url: jdbc:postgresql://postgres.railway.internal:5432/railway
+    username: postgres
+    password: eTmAcHFXMslfAjTOAenVLxIHFrYBPqug
     driver-class-name: org.postgresql.Driver
 
 server:
